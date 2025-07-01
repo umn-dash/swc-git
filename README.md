@@ -3,7 +3,8 @@ JupyterHub Docker setup for Software Carpentries Version Control with Git course
 
 ## Building and Using Images
 
-DASH uses this Dockerfile to build images to be distributed via [UMN Artifactory](https://artifactory.umn.edu/),
+DASH uses the `Dockerfile` in this repository to build images to be distributed via
+[UMN Artifactory](https://artifactory.umn.edu/) (requires VPN!),
 to run on the [JupyterHub service](https://notebooks.latis.umn.edu/) provided by [CLA LATIS](https://cla.umn.edu/latis).
 See the [UMN Artifactory documentation for Docker](https://github.umn.edu/Artifactory/documentation/wiki/Docker)
 for instructions on building, pushing, and pulling images.
